@@ -7,7 +7,7 @@ const produtos = [
 ];
 
 const reajuste = produtos.map((mais) => {
-    return  mais.preco + (mais.preco *0.1)
+    return  mais.preco + (mais.preco * 0.1)
 
 });
 

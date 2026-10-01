@@ -5,6 +5,5 @@ const produtos = [
 { id: 4, nome: "Monitor", preco: 1200, estoque: 3, ativo: true }
 ];
 
-const procurarProduto = produtos.find((i) => i.id === 3)
-
-console.log(procurarProduto);
+const todos = produtos.every((item) => item.estoque > 0);
+console.log(todos);

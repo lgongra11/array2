@@ -5,6 +5,5 @@ const produtos = [
 { id: 4, nome: "Monitor", preco: 1200, estoque: 3, ativo: true }
 ];
 
-const procurarProduto = produtos.find((i) => i.id === 3)
-
-console.log(procurarProduto);
+const ativoounao = produtos.findIndex((inativo) => inativo.ativo == false);
+console.log(ativoounao);

@@ -5,6 +5,5 @@ const produtos = [
 { id: 4, nome: "Monitor", preco: 1200, estoque: 3, ativo: true }
 ];
 
-const procurarProduto = produtos.find((i) => i.id === 3)
-
-console.log(procurarProduto);
+const maior = produtos.some((valor) => valor.preco > 3000);
+console.log(maior);
